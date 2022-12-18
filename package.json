@@ -1,0 +1,37 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "textile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Textile",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "indian-cities-json": "^2.0.0",
+    "indian-states-cities": "^1.0.2",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.7.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurluhar/Textile-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mayurluhar/Textile-API/issues"
+  },
+  "homepage": "https://github.com/mayurluhar/Textile-API#readme"
+}
